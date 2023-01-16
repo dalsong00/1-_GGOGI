@@ -30,10 +30,11 @@ const personalInfo = () => {
           <p className="checkAll">결제 진행 필수 전체 동의</p>
         </div>
         {AGREEMENT_INFO.map((item) => {
+          const { id, icon, title } = item;
           return (
-            <div key={item.id} className="agreementSection">
-              {item.icon}
-              <span className="agreementCheckContent">{item.title}</span>
+            <div key={id} className="agreementSection">
+              {icon}
+              <span className="agreementCheckContent">{title}</span>
             </div>
           );
         })}
