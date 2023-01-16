@@ -56,11 +56,12 @@ const Payment = () => {
   const handlePayBtn = (e) => {
     e.preventDefault();
     let newCartProducts = cartProducts.map((product) => {
+      const { cartId, productId, quantity, price } = product;
       return {
-        cartId: product.cartId,
-        productId: product.productId,
-        quantity: product.quantity,
-        price: product.price * product.quantity,
+        cartId: cartId,
+        productId: productId,
+        quantity: quantity,
+        price: price * quantity,
       };
     });
 
