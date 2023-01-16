@@ -15,7 +15,7 @@ const ShoppingModal = ({ product, isShoppingModal }) => {
     }
   };
   const addModalCart = (e) => {
-    fetch(`http://10.58.52.62:3000/carts`, {
+    fetch(`http://10.58.52.105:3000/carts`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json; charset=utf-8',

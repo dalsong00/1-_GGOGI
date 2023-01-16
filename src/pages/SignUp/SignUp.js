@@ -65,7 +65,7 @@ const SignUp = () => {
 
   const onClickCheckEmail = (e) => {
     e.preventDefault();
-    fetch('http://10.58.52.62:3000/users/emailcheck', {
+    fetch('http://10.58.52.105:3000/users/emailcheck', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json; charset=utf-8' },
       body: JSON.stringify({
@@ -84,7 +84,7 @@ const SignUp = () => {
 
   const onClickSignUp = (e) => {
     e.preventDefault();
-    fetch('http://10.58.52.62:3000/users/signup', {
+    fetch('http://10.58.52.105:3000/users/signup', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json; charset=utf-8' },
       body: JSON.stringify({

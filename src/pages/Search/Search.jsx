@@ -10,7 +10,7 @@ const Search = () => {
 
   useEffect(() => {
     const searchLocation = searchParams.get('keyword') || '';
-    fetch(`http://10.58.52.62:3000/search?keyword=${searchLocation}`, {
+    fetch(`http://10.58.52.105:3000/search?keyword=${searchLocation}`, {
       method: 'GET',
       headers: { 'Content-Type': 'application/json;charset=utf-8' },
     })

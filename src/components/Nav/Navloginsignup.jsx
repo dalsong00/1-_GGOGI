@@ -6,7 +6,7 @@ const Navloginsignup = () => {
   const [userLoginName, setuserLoginName] = useState([]);
 
   useEffect(() => {
-    fetch(`http://10.58.52.62:3000/users/info`, {
+    fetch(`http://10.58.52.105:3000/users/info`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json; charset=utf-8',
