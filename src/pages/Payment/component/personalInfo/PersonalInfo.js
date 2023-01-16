@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsCheckCircleFill, BsCheckCircle, BsCheck2 } from 'react-icons/bs';
+import { BsCheckCircleFill, BsCheck2 } from 'react-icons/bs';
 import './PersonalInfo.scss';
 
 const AGREEMENT_INFO = [

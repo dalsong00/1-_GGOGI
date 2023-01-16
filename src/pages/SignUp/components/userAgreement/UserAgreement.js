@@ -12,8 +12,6 @@ const UserAgreement = () => {
         <div className="allAgreement">
           <div className="allAgreementTop">
             <BsCheckCircleFill className="checkedIcon" />
-            {/* [Todo] 아이콘 클릭하면 다른 아이콘으로 변경되게 하기 */}
-            {/* <BsCheckCircle className="uncheckedIcon"/> */}
             <p className="allAgreementPhrase">전체 동의합니다.</p>
           </div>
           <div className="disagreementPhrase">

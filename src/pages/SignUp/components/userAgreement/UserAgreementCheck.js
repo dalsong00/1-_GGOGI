@@ -11,8 +11,6 @@ const UserAgreementCheck = () => {
           <div key={item.id} className="UserAgreementCheck">
             <div className="agreementCheckSection">
               <BsCheckCircleFill className="checkedIcon" />
-              {/* [Todo] 아이콘 클릭하면 다른 아이콘으로 변경되게 하기 */}
-              {/* <BsCheckCircle className="uncheckedIcon"/> */}
               <span className="agreementContent">{item.content}</span>
               <span className="mustOrChoice">({item.option})</span>
             </div>
