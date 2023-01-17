@@ -17,7 +17,7 @@ const MypageUserInfo = () => {
   const changePsw = (e) => {
     e.preventDefault();
     if (newPassword === againPassword) {
-      fetch('http://10.58.52.105:3000/users/password', {
+      fetch('http://13.113.230.10:3000/users/password', {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json; charset=utf-8',
@@ -36,7 +36,7 @@ const MypageUserInfo = () => {
   const { email, name, phone } = userAddressData;
 
   useEffect(() => {
-    fetch(`http://10.58.52.105:3000/users/profile`, {
+    fetch(`http://13.113.230.10:3000/users/profile`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json; charset=utf-8',

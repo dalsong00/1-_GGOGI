@@ -8,7 +8,7 @@ const CartProductList = ({
   handleCheckBtn,
 }) => {
   const handleDeleteItem = (id) => {
-    fetch(`http://10.58.52.105:3000/carts/deleteItem?cartId=${id}`, {
+    fetch(`http://13.113.230.10:3000/carts/deleteItem?cartId=${id}`, {
       method: 'DELETE',
       headers: {
         authorization: localStorage.getItem('Token'),

@@ -5,7 +5,7 @@ const ProductList = () => {
   const [productList, setProductList] = useState([]);
 
   useEffect(() => {
-    fetch(`http://10.58.52.105:3000/products`)
+    fetch(`http://13.113.230.10:3000/products`)
       .then((response) => response.json())
       .then((result) => setProductList(result));
   }, []);

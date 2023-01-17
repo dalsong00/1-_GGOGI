@@ -11,7 +11,7 @@ const MypageAddress = () => {
   };
   const postAddress = userAddressData;
   useEffect(() => {
-    fetch(`http://10.58.52.105:3000/users/address`, {
+    fetch(`http://13.113.230.10:3000/users/address`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json; charset=utf-8',
@@ -22,7 +22,7 @@ const MypageAddress = () => {
       .then((data) => setUserAddressData(data.data[0]));
   }, []);
   const handleAddressData = () => {
-    fetch(`http://10.58.52.105:3000/users/address`, {
+    fetch(`http://13.113.230.10:3000/users/address`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json; charset=utf-8',

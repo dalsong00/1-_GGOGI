@@ -16,7 +16,7 @@ const Payment = () => {
   const [userPoint, setUserPoint] = useState();
 
   useEffect(() => {
-    fetch('http://10.58.52.105:3000/orders', {
+    fetch('http://13.113.230.10:3000/orders', {
       method: 'GET',
       headers: {
         Authorization: localStorage.getItem('Token'),
@@ -65,7 +65,7 @@ const Payment = () => {
       };
     });
 
-    fetch('http://10.58.52.105:3000/orders', {
+    fetch('http://13.113.230.10:3000/orders', {
       method: 'POST',
       headers: {
         Authorization: localStorage.getItem('Token'),

@@ -7,7 +7,7 @@ const MainCardMini = () => {
   const [mainCardMini, setMainCardMini] = useState([]);
 
   useEffect(() => {
-    fetch(`http://10.58.52.105:3000/products?limit=4`)
+    fetch(`http://13.113.230.10:3000/products?limit=4`)
       .then((response) => response.json())
       .then((result) => setMainCardMini(result));
   }, []);

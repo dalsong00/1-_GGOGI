@@ -11,7 +11,7 @@ const Cart = ({ cartList, setCartList }) => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('http://10.58.52.105:3000/carts', {
+    fetch('http://13.113.230.10:3000/carts', {
       method: 'GET',
       headers: {
         Authorization: localStorage.getItem('Token'),
@@ -39,7 +39,7 @@ const Cart = ({ cartList, setCartList }) => {
     orderProduct();
     orderProductList.map((el) => {
       const { cartId, productId, quantity } = el;
-      fetch('http://10.58.52.105:3000/carts', {
+      fetch('http://13.113.230.10:3000/carts', {
         method: 'PATCH',
         headers: {
           Authorization: localStorage.getItem('Token'),

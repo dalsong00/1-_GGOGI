@@ -10,7 +10,7 @@ const MainCard = () => {
   const offset = searchProductCard.get('offset', 0);
 
   useEffect(() => {
-    fetch(`http://10.58.52.105:3000/products?offset=${offset}&limit=4`)
+    fetch(`http://13.113.230.10:3000/products?offset=${offset}&limit=4`)
       .then((response) => response.json())
       .then((result) => setProductCard(result));
   }, [offset]);

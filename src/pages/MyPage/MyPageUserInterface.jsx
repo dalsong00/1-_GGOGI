@@ -18,7 +18,7 @@ const MyPageUserInterface = ({ name, point }) => {
   ];
 
   useEffect(() => {
-    fetch(`http://10.58.52.105:3000/users/info`, {
+    fetch(`http://13.113.230.10:3000/users/info`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json; charset=utf-8',

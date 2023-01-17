@@ -9,7 +9,7 @@ const Categories = () => {
 
   useEffect(() => {
     const categoriesLocation = searchParams.get('categories') || '';
-    fetch(`http://10.58.52.105:3000/products/tag/${categoriesLocation}`, {
+    fetch(`http://13.113.230.10:3000/products/tag/${categoriesLocation}`, {
       method: 'GET',
       headers: { 'Content-Type': 'application/json;charset=utf-8' },
     })
