@@ -64,16 +64,22 @@
 
 ### 3-3. 세부 구현 사항(개인)
 
-1. 로그인/회원가입
+1. 로그인
+![로그인](https://user-images.githubusercontent.com/114578990/213405434-aafb113a-8a6e-4d78-83d2-6f3dedfdaef1.gif)
+
    - 백엔드와 POST 메서드로 통신 : result.message 결과에 따라 안내 메세지 띄우기
    - 로컬스트리지에 토큰 저장
 
 2. 회원가입
+![회원가입_오류](https://user-images.githubusercontent.com/114578990/213405480-86394c95-350e-434e-8213-041490fb9169.gif)
+
    - 백엔드와 POST 메서드로 통신
     : 유효성 검사 규칙을 충족하지 못할 경우 result.message에 따라 안내 메세지 띄우기 
     (이메일 중복검사, 이메일과 비밀번호 형식, 빈칸 유무)
   
 3. 장바구니
+![장바구니_결제](https://user-images.githubusercontent.com/114578990/213405530-45fbd2c7-5647-4b3f-8b7d-78bb53f50d9d.gif)
+
    - GET 매서드로 메인 및 상세 페이지에서 담은 품목들을 장바구니 화면에서 보여주기
    - DELETE 매서드로 서버에서 품목을 삭제, filter() 활용하여 삭제한 품목을 제외하고 다시 cartList에 아이템 담아주기
    - PATCH 매서드로 주문하기 버튼을 눌렀을 때 변경된 품목의 cartId와 productId, quantity 데이터 서버로 보내주기
