@@ -70,17 +70,17 @@
    - 로컬스트리지에 토큰 저장
 
 2. 회원가입
-- 백엔드와 POST 메서드로 통신
+  - 백엔드와 POST 메서드로 통신
   : 유효성 검사 규칙을 충족하지 못할 경우 result.message에 따라 안내 메세지 띄우기 
   (이메일 중복검사, 이메일과 비밀번호 형식, 빈칸 유무)
   
 3. 장바구니
-- GET 매서드로 메인 및 상세 페이지에서 담은 품목들을 장바구니 화면에서 보여주기
-- DELETE 매서드로 서버에서 품목을 삭제, filter() 활용하여 삭제한 품목을 제외하고 다시 cartList에 아이템 담아주기
-- PATCH 매서드로 주문하기 버튼을 눌렀을 때 변경된 품목의 cartId와 productId, quantity 데이터 서버로 보내주기
+  - GET 매서드로 메인 및 상세 페이지에서 담은 품목들을 장바구니 화면에서 보여주기
+  - DELETE 매서드로 서버에서 품목을 삭제, filter() 활용하여 삭제한 품목을 제외하고 다시 cartList에 아이템 담아주기
+  - PATCH 매서드로 주문하기 버튼을 눌렀을 때 변경된 품목의 cartId와 productId, quantity 데이터 서버로 보내주기
 
 4. 결제
-- POST 매서드로 총 합계와 장바구니에 담긴 항목의 cartId, productId, quantity, price 서버로 보내주기
+  - POST 매서드로 총 합계와 장바구니에 담긴 항목의 cartId, productId, quantity, price 서버로 보내주기
 
 ### 회고록
 - https://velog.io/@songaji_00/1%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0-%EB%A7%88%EC%BC%93%EA%BC%AC%EA%B8%B0
