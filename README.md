@@ -14,7 +14,7 @@
 - 개발 인원 : 프론트엔드 3명, 백엔드 2명
   - 프론트 엔드 : 박예솔, 윤지수, 하평안
   - 백엔드 : 김승수, 김용신
-- [백엔드 github 링크](https://github.com/wecode-bootcamp-korea/41-1st-GGogi-backend)
+- [백엔드 github 링](https://github.com/wecode-bootcamp-korea/41-1st-GGogi-backend)
 
 ### 1-3. 프로젝트 선정이유
 
@@ -82,7 +82,7 @@
    - POST 매서드로 총 합계와 장바구니에 담긴 항목의 cartId, productId, quantity, price 서버로 보내주기
 
 ### 회고록
-- https://velog.io/@songaji_00/1%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0-%EB%A7%88%EC%BC%93%EA%BC%AC%EA%B8%B0
+- [벨로그 ](https://velog.io/@songaji_00/1%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0-%EB%A7%88%EC%BC%93%EA%BC%AC%EA%B8%B0)
 ### Reference
 
 이 프로젝트는 마켓컬리 사이트를 참조하여 학습목적으로 만들었습니다.
