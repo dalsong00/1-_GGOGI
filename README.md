@@ -6,7 +6,7 @@
 
 ### 1-1. 프로젝트 Front-end/Back-end 소개
 
-마켓컬리 클론 프로젝트
+마켓컬리 프로젝트
 
 ### 1-2. 개발 인원 및 기간
 
@@ -38,8 +38,8 @@
 
 ### 3-1. 기술 스택
 
-- `FrontEnd`: React, Javascript, Sass, Github
-- `BackEnd`: Javascript, Express, TypeORM, Node.js, Github
+- `FrontEnd`: React, Javascript, Sass, Git
+- `BackEnd`: Javascript, Express, TypeORM, Node.js, Git
 
 ### 3-2. 필수 구현 사항
 
