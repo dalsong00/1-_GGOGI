@@ -88,7 +88,7 @@
    - POST 매서드로 총 합계와 장바구니에 담긴 항목의 cartId, productId, quantity, price 서버로 보내주기
 
 ### 회고록
-![회고록 링크](https://dalsong-00.tistory.com/36)
+[회고록 링크](https://dalsong-00.tistory.com/36)
 ### Reference
 
 이 프로젝트는 마켓컬리 사이트를 참조하여 학습목적으로 만들었습니다.
