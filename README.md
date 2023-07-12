@@ -14,7 +14,7 @@
 - 개발 인원 : 프론트엔드 3명, 백엔드 2명
   - 프론트 엔드 : 박예솔, 윤지수, 하평안
   - 백엔드 : 김승수, 김용신
-- [백엔드 github 링](https://github.com/wecode-bootcamp-korea/41-1st-GGogi-backend)
+- [백엔드 github 링크](https://github.com/wecode-bootcamp-korea/41-1st-GGogi-backend)
 
 ### 1-3. 프로젝트 선정이유
 
