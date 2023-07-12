@@ -38,7 +38,7 @@
 
 ### 3-1. 기술 스택
 
-- `FrontEnd`: React, Javascript, Sass, Git
+- `FrontEnd`: React, Javascript, SCSS, Git
 - `BackEnd`: Javascript, Express, TypeORM, Node.js, Git
 
 ### 3-2. 필수 구현 사항
